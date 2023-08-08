@@ -53,6 +53,16 @@ export default function Home() {
           sports fan and currently enjoying the women's world cup.
         </p>
         <p>
+          As part of my last role I sat down to chat a little about my
+          motivations and background. Interview
+          <a
+            target="_blank"
+            href="https://www.irishtimes.com/advertising-feature/2022/07/06/ten-minutes-with-niamh-lawlor-senior-frontend-engineer-at-open/"
+          >
+            here.
+          </a>
+        </p>
+        <p>
           Find me on
           <a target="_blank" href="https://twitter.com/nileahtobhair">
             twitter
@@ -61,8 +71,15 @@ export default function Home() {
           <a target="_blank" href="https://www.linkedin.com/in/nlawlor/">
             linkedin
           </a>{" "}
-          and check out my CV
-          <a href="https://www.codeandwander.com/">here.</a>
+          or check out my CV
+          <a
+            href="/CV.pdf"
+            alt="alt text"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            here.
+          </a>
         </p>
       </section>
     </Layout>
