@@ -33,15 +33,7 @@
   margin-top: 2rem;
   height: 225px;
   width: 225px;
-  background: url("../public/images/profile.png");
   border-radius: 50%;
-  background-size: contain;
-}
-
-.profileImage:hover {
-  background: url("../public/images/youngprofile.png");
-  background-size: cover;
-  background-position: center;
 }
 
 .colorInherit {

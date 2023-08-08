@@ -1,15 +1,20 @@
 import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
+import { useState } from "react";
 
-import profile from "/public/images/profile.png";
 import styles from "./layout.module.css";
 import utilStyles from "../styles/utils.module.css";
+import profile from "/public/images/profile.png";
+import youngProfile from "/public/images/youngprofile.png";
 
 const name = "Niamh Lawlor";
 export const siteTitle = "Niamh Lawlor, personal site";
 
 export default function Layout({ children, home }) {
+  const [isHovering, setIsHovered] = useState(false);
+  const onMouseEnter = () => setIsHovered(true);
+  const onMouseLeave = () => setIsHovered(false);
   return (
     <div className={styles.container}>
       <Head>
@@ -18,18 +23,22 @@ export default function Layout({ children, home }) {
         <meta property="og:image" content={profile} />
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
+        <meta name="robots" content="all" />
         <title>{siteTitle}</title>
       </Head>
       <header className={styles.header}>
         {home ? (
           <>
-            <div
-              src="#"
-              className={utilStyles.profileImage}
-              height={185}
-              width={185}
-              alt=""
-            />
+            <div onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
+              <Image
+                src={isHovering ? youngProfile : profile}
+                className={utilStyles.profileImage}
+                height={225}
+                width={225}
+                alt=""
+                priority
+              />
+            </div>
           </>
         ) : (
           <>
