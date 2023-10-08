@@ -5,7 +5,7 @@ import { useState } from "react";
 
 import styles from "./layout.module.css";
 import utilStyles from "../styles/utils.module.css";
-import profile from "/public/images/profile.png";
+import profile from "/public/images/profile.jpg";
 import youngProfile from "/public/images/youngprofile.png";
 
 const name = "Niamh Lawlor";
@@ -33,8 +33,8 @@ export default function Layout({ children, home }) {
               <Image
                 src={isHovering ? youngProfile : profile}
                 className={utilStyles.profileImage}
-                height={225}
-                width={225}
+                height={325}
+                width={325}
                 alt=""
                 priority
               />
