@@ -49,8 +49,8 @@ export default function Home() {
           </a>
         </p>
         <p>
-          Outside of work, I love to read and enjoy playing poker. I am big
-          sports fan and currently enjoying the women's world cup.
+          Outside of work, I love to read, am a big sports fan and enjoy playing
+          poker.
         </p>
         <p>
           As part of my last role I sat down to chat a little about my
