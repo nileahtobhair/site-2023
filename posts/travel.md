@@ -1,6 +1,6 @@
 ---
 title: "Thoughts on eight months full time travel"
-date: "2020-01-12"
+date: "2024-01-12"
 visible: false
 ---
 
