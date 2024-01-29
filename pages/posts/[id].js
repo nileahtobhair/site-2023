@@ -1,12 +1,12 @@
-import Layout from "../../components/layout";
-import { getAllPostIds, getPostData } from "../../lib/posts";
 import Head from "next/head";
-import utilStyles from "../../styles/utils.module.css";
 
 import Date from "../../components/date";
+import Layout from "../../components/layout";
+
+import utilStyles from "../../styles/utils.module.css";
+import { getAllPostIds, getPostData } from "../../lib/posts";
 
 export async function getStaticProps({ params }) {
-  // Add the "await" keyword like this:
   const postData = await getPostData(params.id);
 
   return {
@@ -24,10 +24,13 @@ export default function Post({ postData }) {
       </Head>
       <article>
         <h1 className={utilStyles.headingXl}>{postData.title}</h1>
-        <div className={utilStyles.lightText}>
+        <div className={utilStyles.postDate}>
           <Date dateString={postData.date} />
         </div>
-        <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+        <div
+          className={utilStyles.postContent}
+          dangerouslySetInnerHTML={{ __html: postData.contentHtml }}
+        />
       </article>
     </Layout>
   );
