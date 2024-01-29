@@ -42,7 +42,7 @@ export default function Layout({ children, home }) {
           </>
         ) : (
           <>
-            <Link href="/">
+            {/* <Link href="/">
               <Image
                 priority
                 src="/images/profile.png"
@@ -51,12 +51,12 @@ export default function Layout({ children, home }) {
                 width={108}
                 alt=""
               />
-            </Link>
-            <h2 className={utilStyles.headingLg}>
+            </Link> */}
+            {/* <h2 className={utilStyles.headingLg}>
               <Link href="/" className={utilStyles.colorInherit}>
                 {name}
               </Link>
-            </h2>
+            </h2> */}
           </>
         )}
       </header>

@@ -71,3 +71,14 @@
 .home p {
   margin-bottom: 0.5rem;
 }
+
+.postContent p {
+  margin: 0.75rem 0;
+  font-size: 1.1rem;
+}
+
+.postDate {
+  font-size: 1.25rem;
+  margin-bottom: 3rem;
+  color: #e94196;
+}

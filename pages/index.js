@@ -1,9 +1,10 @@
 // import Head from "next/head";
-import Layout, { siteTitle } from "../components/layout";
 import utilStyles from "../styles/utils.module.css";
+import blogStyles from "../styles/blog.module.css";
+import Layout, { siteTitle } from "../components/layout";
 
-// import Link from "next/link";
-// import Date from "../components/date";
+import Link from "next/link";
+import Date from "../components/date";
 
 import { getSortedPostsData } from "../lib/posts";
 
@@ -16,23 +17,12 @@ export async function getStaticProps() {
   };
 }
 
-export default function Home() {
+export default function Home({ allPostsData }) {
   return (
     <Layout home>
       <section
         className={`${utilStyles.headingMd} ${utilStyles.padding1px} ${utilStyles.home}`}
       >
-        {/* <ul className={utilStyles.list}>
-          {allPostsData.map(({ id, date, title }) => (
-            <li className={utilStyles.listItem} key={id}>
-              <Link href={`/posts/${id}`}>{title}</Link>
-              <br />
-              <small className={utilStyles.lightText}>
-                <Date dateString={date} />
-              </small>
-            </li>
-          ))}
-        </ul> */}
         <p>Hi, I'm Niamh. Software developer from Dublin, Ireland.</p>
         <p>
           I'm currently travelling full time but previously
@@ -82,6 +72,22 @@ export default function Home() {
           </a>
         </p>
       </section>
+      {allPostsData.length > 0 && (
+        <section>
+          <h2 className={blogStyles.heading}>Thoughts</h2>
+          <ul className={utilStyles.list}>
+            {allPostsData.map(({ id, date, title }) => (
+              <li className={utilStyles.listItem} key={id}>
+                <Link href={`/posts/${id}`}>{title}</Link>
+                <br />
+                <small className={utilStyles.lightText}>
+                  <Date dateString={date} />
+                </small>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
     </Layout>
   );
 }
