@@ -34,4 +34,8 @@ Loved this book. Another unlikeable protagonist, but very well written. Enjoyed 
 
 I read this book as a kind and really hated it. I didn't like how discombobulated Alice's perspective was and how it was hard to get a firm grasp of the storyline. Reading it as an adult is a different experience. Hard not to appreciate Carroll's imagination, his poetry and overall craft.
 
+## Klara and the Sun - Kazuo Ishiguro - 4.5/5\*
+
+Loved this, one of my favourites. Beautiful, gentil. Scifi but with hazy world building. Looking forward to reading his other works.
+
 to be continued...
