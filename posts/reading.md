@@ -36,6 +36,6 @@ I read this book as a kind and really hated it. I didn't like how discombobulate
 
 ## Klara and the Sun - Kazuo Ishiguro - 4.5/5\*
 
-Loved this, one of my favourites. Beautiful, gentil. Scifi but with hazy world building. Looking forward to reading his other works.
+Loved this, one of my favourites. Beautiful, gentil. Sci-fi but with hazy world building. Looking forward to reading his other works.
 
 to be continued...

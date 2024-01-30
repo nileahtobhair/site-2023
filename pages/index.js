@@ -63,7 +63,7 @@ export default function Home({ allPostsData }) {
           </a>{" "}
           or check out my CV
           <a
-            href="/CV.pdf"
+            href="/niamh.lawlor.CV.pdf"
             alt="alt text"
             target="_blank"
             rel="noopener noreferrer"
