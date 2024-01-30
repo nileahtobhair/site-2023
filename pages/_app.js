@@ -4,7 +4,7 @@ export default function App({ Component, pageProps }) {
   // For the inquistive among us
   useEffect(() => {
     console.log(
-      "This site is built using nextjs and uses beam analytics. Checkout out the source at https://github.com/nileahtobhair/site-2023 p"
+      "This site is built using nextjs and uses beam analytics. Checkout out the source at https://github.com/nileahtobhair/site-2023"
     );
   }, []);
 
