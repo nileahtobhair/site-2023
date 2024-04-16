@@ -25,7 +25,7 @@ export default function Home({ allPostsData }) {
       >
         <p>Hi, I'm Niamh. Software developer from Dublin, Ireland.</p>
         <p>
-          I'm currently travelling full time but previously
+          I'm currently travelling full time but previously worked @
           <a target="_blank" href="https://andopen.co/">
             &Open
           </a>
@@ -33,7 +33,7 @@ export default function Home({ allPostsData }) {
           <a target="_blank" href="https://fluidly.com/">
             Fluidly
           </a>{" "}
-          and{" "}
+          and
           <a target="_blank" href="https://www.codeandwander.com/">
             codeandwander.
           </a>
