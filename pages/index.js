@@ -71,6 +71,18 @@ export default function Home({ allPostsData }) {
             here.
           </a>
         </p>
+        <p>
+          Just for fun, I am currently working on a side project,
+          rememberremember (name tbd), take a look
+          <a
+            href="https://getremember.niamhlawlor.com/"
+            alt="project text"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            here.
+          </a>
+        </p>
       </section>
       {allPostsData.length > 0 && (
         <section>
