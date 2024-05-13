@@ -31,9 +31,10 @@
 
 .profileImage {
   margin-top: 2rem;
-  height: 275px;
-  width: 275px;
-  border-radius: 50%;
+  /* height: 275px; */
+  width: 225px;
+  /* border-radius: 50%; */
+  border-radius: 12px;
 }
 
 .colorInherit {
@@ -59,7 +60,7 @@
 }
 
 .home {
-  margin-top: 5rem;
+  margin-top: 4rem;
 }
 
 .home a {

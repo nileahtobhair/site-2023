@@ -6,7 +6,7 @@ import { useState } from "react";
 import styles from "./layout.module.css";
 import utilStyles from "../styles/utils.module.css";
 import profile from "/public/images/profile.jpg";
-import youngProfile from "/public/images/youngprofile.png";
+import youngProfile from "/public/images/youngprofile.jpeg";
 
 const name = "Niamh Lawlor";
 export const siteTitle = "Niamh Lawlor, personal site";

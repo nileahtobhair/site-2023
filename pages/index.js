@@ -72,7 +72,7 @@ export default function Home({ allPostsData }) {
           </a>
         </p>
         <p>
-          Just for fun, I am currently working on a side project,
+          Just for fun, I am currently working on a few side projects;
           rememberremember (name tbd), take a look
           <a
             href="https://getremember.niamhlawlor.com/"
@@ -80,8 +80,18 @@ export default function Home({ allPostsData }) {
             target="_blank"
             rel="noopener noreferrer"
           >
-            here.
+            here
+          </a>{" "}
+          as well as{" "}
+          <a
+            href="https://dublingems.com/"
+            alt="project text"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            dublincitygems
           </a>
+          which I'm currently building to hack around with SEO.
         </p>
       </section>
       {false && allPostsData.length > 0 && (
