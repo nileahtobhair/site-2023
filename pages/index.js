@@ -84,7 +84,7 @@ export default function Home({ allPostsData }) {
           </a>
         </p>
       </section>
-      {allPostsData.length > 0 && (
+      {false && allPostsData.length > 0 && (
         <section>
           <h2 className={blogStyles.heading}>Thoughts</h2>
           <ul className={utilStyles.list}>
