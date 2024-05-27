@@ -92,7 +92,7 @@
 
 .postContent table th,
 .postContent table td {
-  padding: 5px 30px;
+  padding: 8px 30px;
 }
 
 .postContent table th {
@@ -115,4 +115,17 @@
   height: 30px;
   display: block;
   cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .postContent table {
+    max-width: 100%;
+    overflow: hidden;
+  }
+
+  .postContent table th,
+  .postContent table td {
+    padding: 8px 12px;
+    font-size: 16px;
+  }
 }
