@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 
 import Date from "../../components/date";
 import Layout from "../../components/layout";
@@ -22,6 +23,9 @@ export default function Post({ postData }) {
       <Head>
         <title>{postData.title}</title>
       </Head>
+      <section className={utilStyles.head}>
+        <Link href="/" />
+      </section>
       <article>
         <h1 className={utilStyles.headingXl}>{postData.title}</h1>
         <div className={utilStyles.postDate}>

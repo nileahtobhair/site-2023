@@ -9,7 +9,7 @@ visible: true
 | Item           |   Description   |                                                           Link |
 | :------------- | :-------------: | -------------------------------------------------------------: |
 | FE source      |  Github source  | [here](https://github.com/nileahtobhair/remember-fe/tree/main) |
-| FE prototype   |   usuable MVP   | [here](https://github.com/nileahtobhair/remember-fe/tree/main) |
+| FE prototype   |   Usuable MVP   | [here](https://github.com/nileahtobhair/remember-fe/tree/main) |
 | Marketing page | Waitlist signup |                   [here](https://getremember.niamhlawlor.com/) |
 
 ## About
