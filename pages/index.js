@@ -71,7 +71,7 @@ export default function Home({ allPostsData }) {
             here.
           </a>
         </p>
-        <p>
+        {/* <p>
           Just for fun, I am currently working on a few side projects;
           rememberremember (name tbd), an app to build topic specific date
           calendars, take a look
@@ -94,7 +94,7 @@ export default function Home({ allPostsData }) {
           </a>
           which is just a fun directory site I'm currently building to hack
           around with SEO.
-        </p>
+        </p> */}
       </section>
       {false && allPostsData.length > 0 && (
         <section>
