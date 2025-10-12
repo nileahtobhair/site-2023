@@ -26,7 +26,7 @@ export default function Home({ allPostsData }) {
         <p>Hi, I'm Niamh. Software developer from Dublin, Ireland.</p>
         <p>
           I'm currently working for the DAA, building 
-          <a target="_blank" href="https://dubblinairport.com/">
+          <a target="_blank" href="https://dublinairport.com/">
            dublinairport.com
           </a> and previously worked @
           <a target="_blank" href="https://andopen.co/">

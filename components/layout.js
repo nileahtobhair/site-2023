@@ -5,8 +5,8 @@ import { useState } from "react";
 
 import styles from "./layout.module.css";
 import utilStyles from "../styles/utils.module.css";
-import profile from "/public/images/profile.jpg";
-import youngProfile from "/public/images/youngprofile.jpeg";
+import profile from "../public/images/profile.jpg";
+import youngProfile from "../public/images/youngprofile.jpeg";
 
 const name = "Niamh Lawlor";
 export const siteTitle = "Niamh Lawlor, personal site";
@@ -20,7 +20,7 @@ export default function Layout({ children, home }) {
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <meta name="description" content={siteTitle} />
-        <meta property="og:image" content={profile} />
+        {/* <meta property="og:image" content={profile} /> */}
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="robots" content="all" />
