@@ -1,7 +1,7 @@
 // import Head from "next/head";
 import utilStyles from "../styles/utils.module.css";
 import blogStyles from "../styles/blog.module.css";
-import Layout, { siteTitle } from "../components/layout";
+import Layout from "../components/layout";
 
 import Link from "next/link";
 import Date from "../components/date";
@@ -25,7 +25,10 @@ export default function Home({ allPostsData }) {
       >
         <p>Hi, I'm Niamh. Software developer from Dublin, Ireland.</p>
         <p>
-          I'm currently travelling full time but previously worked @
+          I'm currently working for the DAA, building 
+          <a target="_blank" href="https://dubblinairport.com/">
+           dublinairport.com
+          </a> and previously worked @
           <a target="_blank" href="https://andopen.co/">
             &Open
           </a>
@@ -43,7 +46,7 @@ export default function Home({ allPostsData }) {
           poker.
         </p>
         <p>
-          As part of my last role I sat down to chat a little about my
+          As part of a previous role, I sat down to chat a little about my
           motivations and background. Interview
           <a
             target="_blank"
@@ -53,11 +56,7 @@ export default function Home({ allPostsData }) {
           </a>
         </p>
         <p>
-          Find me on
-          <a target="_blank" href="https://twitter.com/nileahtobhair">
-            twitter
-          </a>
-          ,
+          Find me 
           <a target="_blank" href="https://www.linkedin.com/in/nlawlor/">
             linkedin
           </a>{" "}
